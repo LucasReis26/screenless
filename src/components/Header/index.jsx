@@ -2,15 +2,15 @@ import styles from './Header.module.css';
 
 function Header(){
 	return(
-		<div>
+		<header>
 			<img src="" alt="Logotipo do Screenless" id="logo"/>
-			<ul>
-				<li><a href="">Sobre nós</a></li>
-				<li><a href="">Serviços</a></li>
-				<li><a href="">Recomendações</a></li>
-			</ul>
+			<nav>
+				<a href="">Sobre nós</a>
+				<a href="">Serviços</a>
+				<a href="">Recomendações</a>
+			</nav>
 			<button>Log In</button>
-		</div>
+		</header>
 	)
 }
 
