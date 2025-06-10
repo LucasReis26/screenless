@@ -4,7 +4,7 @@
 	height: 90vh;
 
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 
@@ -13,7 +13,7 @@
 	font-size: 5rem;
 	text-align:center;
 	color: var(--dark-blue);
-	margin-bottom:60px;
+	margin-bottom:50px;
 }
 
 .leftSide h2>span{
@@ -26,22 +26,22 @@
 	text-align: center;
 }
 
-.leftSide button{
-	background-color: var(--dark-red);
-	border:0px;
-	height: 40px;
-	width: 200px;
-	color: var(--white);
-	border-radius: 15px;
-	display: block;
-	margin:50px auto;
-	font-size: 1.5rem;
-}
-
-.leftSide button:hover{
-	background-color: var(--red);
-	cursor: pointer;
-}
+/* .leftSide button{ */
+/* 	background-color: var(--dark-red); */
+/* 	border:0px; */
+/* 	height: 40px; */
+/* 	width: 200px; */
+/* 	color: var(--white); */
+/* 	border-radius: 15px; */
+/* 	display: block; */
+/* 	margin:50px auto; */
+/* 	font-size: 1.5rem; */
+/* } */
+/**/
+/* .leftSide button:hover{ */
+/* 	background-color: var(--red); */
+/* 	cursor: pointer; */
+/* } */
 
 .rightSide{
 	display: flex;

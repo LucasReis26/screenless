@@ -4,7 +4,7 @@ function Service2(){
 	return(
 		<div className={styles.service2}>
 			<div className={styles.leftSide}>
-				<img src="" alt="Exemplo de Celular com GPS"/>
+				<img src="/CelularGPS.png" alt="Exemplo de Celular com GPS"/>
 			</div>
 			<div className={styles.rightSide}>
 				<h2>Descubra eventos na <br/> sua <span>vizinhança!</span></h2>
