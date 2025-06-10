@@ -3,7 +3,7 @@ import CallActionButton from '../CallActionButton'
 function Service3(){
 	return(
 		<>
-			<div className={styles.Service3}>
+			<div className={styles.service3}>
 				<div className={styles.leftSide}>
 					<h2>Seu filho com novas <br/><span>Amizades!</span></h2>
 					<p>Com Screenless, seu filho terá a oportunidade de conhecer as <br/> outras crianças da vizinhança!</p>
