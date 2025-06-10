@@ -23,13 +23,21 @@
 	background-color: var(--soft-white);
 }
 
+.navItens{
+	height: 35px;
+	background-color: var(--soft-white);
+}
 
 .navItens a{
-	padding: 1rem;
+	padding: 0rem 1rem;
 	font-size: 1.6rem;
 	text-decoration: none;
 	color: var(--text);
-	background-color: var(--soft-white)
+	border-radius: 15px;
+}
+
+.navItens a:hover{
+		background-color: var(--white);
 }
 
 .btn{
