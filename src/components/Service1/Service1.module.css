@@ -51,9 +51,11 @@
 .imgLeft img:hover{
 	width:286px;
 	margin:16px 0px 0px;
+	transition: 0.3s ;
 }
 
 .imgRight img:hover{
 	width:236px;
 	margin:16px 0px 0px;
+	transition: 0.3s ;
 }
