@@ -5,6 +5,45 @@
 }
 
 .relatos h2{
+	font-family: "Kaushan Script";
+	color: var(--dark-blue);
+	font-size: 5rem;
+	margin-top:1rem;
+	margin-bottom: 1rem;
+}
 
+.relatos h2 > span{
+	color: var(--dark-red);
+}
+
+.relatosContainer{
+	display:flex;
+	width:100%;
+	justify-content: center;
+}
+
+.card{
+	background-color: var(--white);
+	padding: 20px;
+	height: 415px;
+	border-radius:20px;
+	margin: 16px;
+}
+
+.card img{
+	width:125px;
+}
+
+.card h3{
+	margin-top:1rem;
+	margin-bottom:1rem;
+	color: var(--dark-blue);
+	font-weight:bold;
+}
+
+.card p{
+	font-size:1rem;
+	text-align:justify;
+	max-width: 200px;
 }
 
