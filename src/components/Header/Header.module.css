@@ -10,11 +10,17 @@
 
 .box div{
 	justify-content: start;
+	height:75px;
+}
+
+.box figure{
+	background-color: var(--soft-white);
 }
 
 .box img{
 	height: 75px;
 	padding: 0px 40px;
+	background-color: var(--soft-white);
 }
 
 
@@ -23,6 +29,7 @@
 	font-size: 1.6rem;
 	text-decoration: none;
 	color: var(--text);
+	background-color: var(--soft-white)
 }
 
 .btn{
