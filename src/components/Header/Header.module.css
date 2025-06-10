@@ -13,10 +13,6 @@
 	height:75px;
 }
 
-.box a{
-	background-color: var(--soft-white);
-}
-
 .box img{
 	height: 75px;
 	padding: 0px 40px;
