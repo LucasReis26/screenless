@@ -6,7 +6,7 @@ function Service4(){
 		<>
 			<div className={styles.service4}>
 				<div className={styles.leftSide}>
-					<img src="" alt="Pai brincando com o filho de skate"/>
+					<img src="/father-playing-with-kid.png" alt="Pai brincando com o filho de skate"/>
 				</div>
 				<div className={styles.rightSide}>
 					<h2>Crie memórias <span>incríveis!</span></h2>
