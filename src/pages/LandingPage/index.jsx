@@ -6,6 +6,7 @@ import Service1 from '../../components/Service1'
 import Service2 from '../../components/Service2'
 import Service3 from '../../components/Service3'
 import Service4 from '../../components/Service4'
+import Relatos from '../../components/Relatos'
 
 function LandingPage() {
 
@@ -16,6 +17,7 @@ function LandingPage() {
 			<Service2/>
 			<Service3/>
 			<Service4/>
+			<Relatos/>
 			<Footer/>
 		</>
 	);
