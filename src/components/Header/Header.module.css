@@ -29,7 +29,7 @@
 }
 
 .navItens a{
-	padding: 0rem 1rem;
+	padding: 0rem 1.25rem;
 	font-size: 1.6rem;
 	text-decoration: none;
 	color: var(--text);
@@ -53,5 +53,6 @@
 }
 
 .btn:hover{
-	background-color: var(--dark-red)
+	background-color: var(--dark-red);
+	cursor: pointer;
 }
