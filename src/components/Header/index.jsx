@@ -2,17 +2,21 @@ import styles from './Header.module.css';
 
 function Header(){
 	return(
-		<header>
-			<figure>
-				<img src="" alt="Logotipo do Screenless" id="logo"/>
-			</figure>
-			<nav className={styles.navItens}>
-				<a href="">Sobre nós</a>
-				<a href="">Serviços</a>
-				<a href="">Recomendações</a>
-			</nav>
-			<button>Log In</button>
-		</header>
+		<>
+			<header className={styles.box}>
+				<div>
+					<figure>
+						<img src="/ScreenlessLogo.png" alt="Logotipo do Screenless" id="logo"/>
+					</figure>
+					<nav className={styles.navItens}>
+						<a href="/sobre-nos">Sobre nós</a>
+						<a href="/servicos">Serviços</a>
+						<a href="/relatos">Relatos</a>
+					</nav>
+				</div>
+				<button className={styles.btn}>Log In</button>
+			</header>
+		</>
 	)
 }
 
