@@ -1,13 +1,12 @@
 .service3{
-	display: flex;
 	width: 100%;
 	height: 90vh;
-
+	background-color: var(--white);
+	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
 }
-
-.leftSide h2{
+.rightSide h2{
 	font-family: "Kaushan Script";
 	font-size: 5rem;
 	text-align:center;
@@ -15,16 +14,16 @@
 	margin-bottom:50px;
 }
 
-.leftSide p{
+.rightSide h2>span{
+	color: var(--dark-red);
+}
+
+.rightSide p{
 	color: var(--text);
 	font-size: 1.5rem;
 	text-align: center;
 }
 
-.leftSide h2>span{
-	color: var(--dark-red);
-}
-
-.rightSide img{
+.leftSide img{
 	width: 600px;
 }

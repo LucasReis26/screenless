@@ -1,19 +1,19 @@
-import CallActionButton from '../CallActionButton';
 import styles from './Service2.module.css'
-
+import CallActionButton from '../CallActionButton'
 function Service2(){
 	return(
-		<div className={styles.service2} id='service1'>
-			<div className={styles.leftSide}>
-				<img src="/CelularGPS.png" alt="Exemplo de Celular com GPS"/>
+		<>
+			<div className={styles.service2}>
+				<div className={styles.leftSide}>
+					<h2>Seu filho com novas <br/><span>Amizades!</span></h2>
+					<p>Com Screenless, seu filho terá a oportunidade de conhecer as <br/> outras crianças da vizinhança!</p>
+					<CallActionButton/>
+				</div>
+				<div className={styles.rightSide}>
+					<img src="/kids-illustration-playing.png" alt="Ilustração de crianças pulando corda"/>
+				</div>
 			</div>
-			<div className={styles.rightSide}>
-				<h2>Descubra eventos na <br/> sua <span>vizinhança!</span></h2>
-				<p>Com o Screenless, você pode encontrar e criar eventos perto <br/>de casa para o seu filho!</p>
-				<CallActionButton/>
-			</div>
-		</div>
+		</>
 	)
 }
-
-export default Service2;
+export default Service2
