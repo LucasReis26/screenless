@@ -8,7 +8,6 @@ function Service1(){
 				<div className={styles.leftSide}>
 					<h2>Imagine um mundo <br/> com menos <span>telas!</span></h2>
 					<p>Dê a oportunida à seu filho  de viver <br/> o mundo real e veja ele ser mais feliz.</p>
-					{/* <button>Baixe o App</button> */}
 					<CallActionButton/>
 				</div>
 				<div className={styles.rightSide}>

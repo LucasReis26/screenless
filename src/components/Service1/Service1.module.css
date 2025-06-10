@@ -26,23 +26,6 @@
 	text-align: center;
 }
 
-/* .leftSide button{ */
-/* 	background-color: var(--dark-red); */
-/* 	border:0px; */
-/* 	height: 40px; */
-/* 	width: 200px; */
-/* 	color: var(--white); */
-/* 	border-radius: 15px; */
-/* 	display: block; */
-/* 	margin:50px auto; */
-/* 	font-size: 1.5rem; */
-/* } */
-/**/
-/* .leftSide button:hover{ */
-/* 	background-color: var(--red); */
-/* 	cursor: pointer; */
-/* } */
-
 .rightSide{
 	display: flex;
 	width:600px;
