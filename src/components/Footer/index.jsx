@@ -2,13 +2,13 @@ import styles from  './Footer.module.css';
 
 function Footer(){
 	return (
-		<footer className={styles.footer}>
+		<footer className={styles.footer} id="footer">
 			<div className={styles.navegacao}>
 				<h3>Navegação</h3>
 				<nav>
-					<a href="/sobre-nos">Sobre nós</a>
-					<a href="/servicos">Serviços</a>
-					<a href="/relatos">Relatos</a>
+					<a href="#footer">Contato</a>
+					<a href="#service1">Serviços</a>
+					<a href="#relatos">Relatos</a>
 				</nav>
 			</div>
 			<div className={styles.contato}>

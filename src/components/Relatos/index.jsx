@@ -4,7 +4,7 @@ import styles from './Relatos.module.css'
 function Relatos(){
 	return (
 		<>
-			<div className={styles.relatos}>
+			<div className={styles.relatos} id="relatos">
 				<h2>Nossos <span>Relatos!</span></h2>
 				<div className={styles.relatosContainer}>
 					<div className={styles.card}>
