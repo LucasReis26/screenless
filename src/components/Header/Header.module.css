@@ -6,6 +6,9 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+
+	position: sticky;
+	top: 0px;
 }
 
 .box div{
